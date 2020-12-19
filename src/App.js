@@ -124,7 +124,7 @@ export default function App() {
       })}
       <ul className="container">
         {carDB[selectedBudget].map((cars) => (
-          <li className="container carList">
+          <li key={cars.make} className="container carList">
             <div>Manufacturer: {cars.manufacturer}</div>
             <div>Make: {cars.make}</div>
             <div>Year: {cars.year}</div>
