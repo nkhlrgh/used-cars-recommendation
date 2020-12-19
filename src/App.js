@@ -127,7 +127,7 @@ export default function App() {
           <li key={cars.make} className="container carList">
             <div>Manufacturer: {cars.manufacturer}</div>
             <div>Make: {cars.make}</div>
-            <div>Year: {cars.year}</div>
+            {/* <div>Year: {cars.year}</div> */}
             <a target="_blank" className="link carList" href={cars.specLink}>
               Specifications
             </a>
